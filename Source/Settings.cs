@@ -1,6 +1,6 @@
 ﻿using Verse;
 
-namespace Template
+namespace BrawlersDontMindGrenades
 {
     public class Settings : ModSettings
     {

@@ -50,7 +50,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Template.cs" />
+    <Compile Include="Alert_BrawlerHasRangedWeapon_BrawlersWithRangedWeapon.cs" />
+    <Compile Include="BrawlersDontMindGrenades.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

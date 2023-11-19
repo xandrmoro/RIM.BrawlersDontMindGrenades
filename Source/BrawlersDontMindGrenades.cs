@@ -2,13 +2,13 @@
 using UnityEngine;
 using Verse;
 
-namespace Template
+namespace BrawlersDontMindGrenades
 {
-    public class Template : Mod
+    public class BrawlersDontMindGrenades : Mod
     {
         public static Settings Settings { get; private set; }
 
-        public Template(ModContentPack contentPack) : base(contentPack)
+        public BrawlersDontMindGrenades(ModContentPack contentPack) : base(contentPack)
         {
             Settings = GetSettings<Settings>();
 
@@ -27,7 +27,7 @@ namespace Template
 
         public override string SettingsCategory()
         {
-            return nameof(Template);
+            return nameof(BrawlersDontMindGrenades);
         }
     }
 }

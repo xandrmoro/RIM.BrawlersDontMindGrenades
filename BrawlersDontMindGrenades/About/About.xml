@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Template</name>
+    <name>BrawlersDontMindGrenades</name>
     <author>XandrMoro</author>
-    <packageId>Xandrmoro.Rim.Template</packageId>
+    <packageId>Xandrmoro.Rim.BrawlersDontMindGrenades</packageId>
     <supportedVersions>
         <li>1.4</li>
     </supportedVersions>
 
     <description>
+Thats it. Pawns with brawler trait do not get mood penalty for having grenades equipped and theres no alert. Probably quite OP without CE.
+It also uses hacky approach to detect grenades (checking if the def name contains Weapon_Grenade), so other mods that add grenades might not necessarily be compatible.
     </description>
 
     <modDependencies>
